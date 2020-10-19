@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+<ruta isbn="1">
+    <nombre>Rute 66</nombre>
+    <tipo>Paisajistica</tipo>
+    <dificultad>dificil</dificultad>
+    <fecha-inicio>10-10-20 </fecha-inicio>
+    <fecha-fin> 12-12-20</fecha-fin>
+    <duracion>4 dias</duracion>
+    <agencia>agencia pepe</agencia>
+    <descripcion>bonico</descripcion>
+    <personas>mediana edad</personas>
+    <inicio>nueva york</inicio>
+    <dir-Inicio>brookling 99</dir-Inicio>
+    <coordenadas>1n 9o</coordenadas>
+    <referencias>
+    <ref>"www.a.com"</ref>
+    <ref>"www.b.com"</ref>
+    <ref>"www.c.com"</ref>
+    </referencias>
+    <recomendacion>7</recomendacion>
+
+    <hitos>
+    <hito  descripcion ="gasolinera" coodenada =" 5e"> gasolinera shell</hito>
+    <hito  descripcion ="gasolinera2" coodenada =  "5e">gasolinera diesel</hito>
+    <hito  descripcion ="estatua de leñador" coodenada =  "5e">Estatua de Jose luis</hito>
+    </hitos>
+</ruta>
+
+</rutas>

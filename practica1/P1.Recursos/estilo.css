@@ -1,0 +1,36 @@
+body {
+
+    font: 400 15px Verdana,Times ; /*Familia sans-serif*/
+    font-family: Verdana,Times, sans-serif;
+    line-height: 1.8;
+    color: #f3ffe9;
+    background-color:#303030;
+    }
+   h1 {
+    background-color:#10690d;
+    font:100 80px fantasy;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+    }
+    h3 {
+        font:500 30px , fantasy;
+        color: rgb(180, 253, 174);
+        background-color:#303030;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    th{
+        font:100 20px , fantasy;
+        color: rgb(180, 253, 174);
+        background-color:#303030;
+        text-transform: uppercase;
+        text-align: left;
+
+    }
+    td:nth-last-child(1){
+        color: rgb(231, 107, 107);
+        background-color:#303030;
+    }
+    
