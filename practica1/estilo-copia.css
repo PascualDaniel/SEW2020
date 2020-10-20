@@ -92,6 +92,7 @@
 
     }
     #Lista {
+        
         background-color: #6e6d6d;
         color: rgba(255,255,255,1.0);
         margin-bottom: 2%;
@@ -130,6 +131,7 @@
         padding: 1%;
     }
     #tabla td{
+        
         border: 1px solid black;
         background-color: #6e6d6d;
         color: rgb(255, 255, 255);
