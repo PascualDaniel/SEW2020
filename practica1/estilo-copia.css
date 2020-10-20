@@ -100,7 +100,7 @@
     #Lista h3 {
         background-color: #6e6d6d;
         font:500 30px , fantasy;
-        color: rgb(224, 255, 221);
+        color: rgb(255, 255, 255);
         
         text-transform: uppercase;
         text-align: left;
@@ -114,13 +114,13 @@
     #tabla{
         
         background-color: #6e6d6d;
-        color: rgba(255,255,255,1.0);
+        color: rgb(255, 255, 255);
     }
     #tabla th{
         border: 1px solid black;
         font:100 20px , fantasy;
         background-color: #6e6d6d;
-        color: rgb(230, 253, 228);
+        color: rgb(255, 255, 255);
         padding: 5px;
         text-transform: uppercase;
         text-align: left;
@@ -133,7 +133,7 @@
         border: 1px solid black;
     }
     #tabla td:nth-last-child(1){
-        background-color: #6e6d6d;
-        color: rgb(255, 255, 247);
+        background-color: #2c2c2c;
+        color: rgb(255, 0, 0);
       
     }
