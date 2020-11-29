@@ -1,0 +1,12 @@
+<svg xmlns = "http://www.w3.org/2000/avg" viewBox = "-40 70 300 100">
+<text x = "110"  y="205" transform = "rotate(90,100,100)">Inicio</text>
+<text x = "110"  y="175" transform = "rotate(90,100,100)">Cangas de Onis</text>
+<text x = "110"  y="145" transform = "rotate(90,100,100)">Covadonga</text>
+<text x = "110"  y="115" transform = "rotate(90,100,100)">Sotres</text>
+<text x = "110"  y="85" transform = "rotate(90,100,100)">Poncebos</text>
+<text x = "110"  y="55" transform = "rotate(90,100,100)">Fin</text>
+
+        <polyline fill = "red"
+        stroke = "black"
+        stroke-width = "3"  points =  "0,100 30,100.0 60,80.32454361054766 90,0.0 120,57.809330628803245 150,100 0,100"/>
+            </svg>

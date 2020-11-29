@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="Ejercicio7.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+    
+</head>
+
+<body>
+
+    <h1>Ejercicio  7</h1>
+    <h2 >Texto cambiable :  </h2>
+    <p id="textoModificable">Hola</p>
+    <div id ="Cambia"> 
+        <p >Cambiar: 
+        
+        <input type="text" value="Adios" id= "Cambiartext"  >
+        <input type="button" value="Cambiar" id= "Cambiar" onclick="pe.accionModificar()" >
+        
+        </p>  
+    </div>
+
+    <h3>Ocultar y Aparecer:</h3>
+    <div >
+        <input type="button" value="ocultar" id= "ocultar" onclick="pe.Ocultar()" >
+        <input type="button" value="mostar" id= "mostrar" onclick="pe.Mostrar()" >
+        <p id ="ocultable">Texto Ocultable</p>
+    </div>
+
+    <h3>Añadir y Borrar:</h3>
+    <div id ="add"> 
+        <p >Añadir: 
+        
+        <input type="number" value= "1" id= "Num1"  >
+        <input type="number" value= "2" id= "Num2"  >
+        <input type="number" value= "3" id= "Num3"  >
+        <input type="button" value="Añadir" id= "Annadir" onclick="pe.accionAñadir()" >
+        </p>  
+
+        <p >
+            Sumar Medias: 
+            <input type="button" value="Sumar" id= "Sumar" onclick="pe.sumarAction()" >
+        </p>  
+        <p >
+            Borrar Tabla: 
+            <input type="button" value="Borrar" id= "Borrar" onclick="pe.removeAction()" >
+        </p>
+        <p >
+            Recorrer Todo: 
+            <input type="button" value="Recorrer" id= "recorrer" onclick="pe.recorrerDocumento()" >
+        </p>  
+
+        <table >
+            <thead>
+                <tr >
+                    <td></td>
+                    <th>N1</th>
+                    <th>N2</th>
+                    <th>N3</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="tabla" >
+                
+            </tbody>
+            <tfoot>
+                <tr >
+                    <th>Total</th>
+                    <td id ="td1">0</td>
+                    <td id ="td2">0</td>
+                    <td id ="td3">0</td>
+                    <td id ="total">0</td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </div>
+
+    
+    
+   
+</body>
+
+</html>

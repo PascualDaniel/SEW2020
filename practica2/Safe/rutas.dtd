@@ -1,0 +1,50 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta  (nombre, tipo, dificultad, fechainicio, horainicio, duracion, agencia, descripcion , personas , inicio , dirInicio , coordenadas,
+            referencias, recomendacion, hitos)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+
+<!ELEMENT fechainicio (#PCDATA)>
+<!ELEMENT horainicio (#PCDATA)>
+
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT dirInicio (#PCDATA)>
+<!ELEMENT coordenadas (longitud,latitud,altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+
+
+<!ELEMENT referencias (ref+)>
+<!ELEMENT ref (#PCDATA)>
+
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (nombreHito,descripcionhito, coordenadasGeo, tiempohito, fotos, videos)>
+
+<!ELEMENT nombreHito (#PCDATA)>
+<!ELEMENT descripcionhito (#PCDATA)>
+
+<!ELEMENT coordenadasGeo (longitudG,latitudG,altitudG)>
+<!ELEMENT longitudG (#PCDATA)>
+<!ELEMENT latitudG (#PCDATA)>
+<!ELEMENT altitudG (#PCDATA)>
+
+<!ELEMENT tiempohito (#PCDATA)>
+
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT videos (video*)>
+<!ELEMENT video (#PCDATA)>
+
+
+
+
+<!ATTLIST ruta isbn ID #REQUIRED>

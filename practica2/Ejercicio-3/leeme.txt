@@ -1,0 +1,4 @@
+Lenguaje: Pyton Version 3.7.2
+Uso pyscripter a la ultima version 3.6.4.0
+El programa lee un archivo upnp.xml e imprime por pantalla el Dispositivo, 
+todos los servicios que salen de este y los dispositivos conectados

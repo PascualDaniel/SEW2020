@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="Ejercicio10.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+    
+</head>
+
+<body>
+    <header>
+    <h1>Ejercicio 10</h1>      
+    </header>
+
+    <div id ="Cambio">
+
+        <input type="number" id ="in" value="0">
+        <select name="Moneda" id="TipoMonedaEntrada">
+            <option value="EUR">EURO</option>
+            <option value="USD">DOLAR</option>
+            <option value="JPY">YEN</option>
+            <option value="GBP">LIBRA</option>
+            <option value="CHF">FRANCO</option>
+        </select>
+        <p>
+            A
+        </p>
+        <select name="Moneda" id="TipoMonedaSalida">
+            <option value="EUR">EURO</option>
+            <option value="USD">DOLAR</option>
+            <option value="JPY">YEN</option>
+            <option value="GBP">LIBRA</option>
+            <option value="CHF">FRANCO</option>
+        </select>
+        <p>
+            =
+        </p>
+        <input type="number" id ="Out" value="0"  readonly>
+     
+    </div>
+   <button id="boton" onclick = "monedas.accionBoton()">  Calcular  </button>
+</body>
+
+</html>

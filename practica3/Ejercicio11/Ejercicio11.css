@@ -1,0 +1,37 @@
+/* CalculadoraBasica.css */
+/* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
+body{
+    background-color:rgb(48, 47, 47) ;
+}
+#Ciudades {
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 1em;
+    border:3px black;
+    margin: 20px;
+    color: black;
+    background-color: whitesmoke;
+}
+header{
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+h1{
+    
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 5em;
+}
+#boton{
+    text-align: center;
+    font-size: 2em;
+}
+#Cambio{
+  background-color: antiquewhite;
+  display: flexbox;
+  border: 1px black;
+  text-align: justify;
+
+}

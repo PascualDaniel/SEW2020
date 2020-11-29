@@ -1,0 +1,83 @@
+/* CalculadoraBasica.css */
+/* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
+body{
+    color:black;
+    background-color:rgb(48, 47, 47) ;
+}
+header{
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+h1{
+    
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 5em;
+  
+}
+
+#seleccion{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin:auto auto 3% auto;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+#control{
+    margin:auto auto 3% auto;
+    width: 70%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: gray;
+    color: black;
+}
+#imagenDiv{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    color: black;
+}
+
+#imagenCargada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+#botones{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+#canvas{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#ImagenTotal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: aliceblue;
+    color: black;
+    padding-bottom: 5%;
+
+}
+#FullScreen{
+    text-align: center;
+
+    display: block;
+    margin: auto;
+}

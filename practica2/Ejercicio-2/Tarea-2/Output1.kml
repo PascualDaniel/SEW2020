@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <kml xmlns="http://www.opengis.net/kml/2.2">
+        <Document>
+            <Placemark>
+            <name>Asturias en Autocaravana
+                </name>
+                <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+-7.10694,43.35972
+-6.94583,43.56611
+-5.823948,43.382945
+-5.125752,43.353639
+</coordinates>
+        <altitudeMode>clampToGround</altitudeMode>
+        </LineString>
+        <Style> id='lineaRoja'>
+        <LineStyle>
+        <color>#ff0000ff</color>
+        <width>5</width>
+        </LineStyle>
+        </Style>
+        </Placemark>
+        </Document>
+        </kml>

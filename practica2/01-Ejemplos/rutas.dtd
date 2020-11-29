@@ -1,0 +1,26 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta  (nombre, tipo, dificultad, fecha-inicio, fecha-fin, duracion, agencia, descripcion , personas , inicio , dir-Inicio , coordenadas,
+            referencias+, recomendacion, hitos+)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT fecha-inicio (#PCDATA)>
+<!ELEMENT fecha-fin (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+
+
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT dir-Inicio (#PCDATA)>
+<!ELEMENT coordenada (#PCDATA)>
+
+<!ELEMENT referencias (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT hitos (#PCDATA)>
+
+
+
+<!ATTLIST libro isbn ID #REQUIRED>
+<!ATTLIST precio moneda CDATA #REQUIRED>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" href="Ejercicio14.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio14.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 14</h1>
+        <div id="seleccion">
+            <p>Seleccione una imagen: </p>
+            <input type="file" id="archivoTexto" onchange="puzzle.metodoBoton(this.files)">
+        </div>
+
+
+
+
+    </header>
+    <div id="control">
+        <div id="imagenDiv">
+
+        </div>
+
+
+        <div id="botones">
+            <input type="button" value="Invertir" id="invertir" onclick="puzzle.invert()">
+            <input type="button" value="Grises" id="grayscale" onclick="puzzle.grayscale()">
+            <input type="button" value="Normal" id="original" onclick="puzzle.original()">
+
+        </div>
+
+
+    </div>
+    <input type="button" value="FullScreen" id="FullScreen" onclick="puzzle.fullScreen()">
+    <div id="ImagenTotal">
+
+        <canvas id="canvas"></canvas>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

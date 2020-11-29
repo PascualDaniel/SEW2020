@@ -1,0 +1,65 @@
+/* CalculadoraBasica.css */
+/* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
+body{
+    background-color:rgb(240, 181, 71) ;
+}
+#entrada{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+
+    text-align: center ;
+    background-color: rgb(71, 71, 71);
+    border: 3px black ridge;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+   
+
+#nombres{
+   color: aliceblue;
+   
+}
+#inputs > td>input{
+    text-align: right ;
+}
+
+#tablas{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+
+    border: 2px rgb(0, 0, 0);
+    text-align: right;
+    padding: 0px 5px;
+    font-size: 1em;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+ 
+    margin: 1em;
+
+}
+#numeros{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+
+    border: 2px rgb(0, 0, 0);
+    text-align: right;
+    padding: 0px 5px;
+    font-size: 1em;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+ 
+    margin: 1em;
+
+}
+#pantalla > #entrada{
+    border-top: 2px black;
+}
+#pantalla > #pila>p {
+    margin: 0em;
+    font-size: 0.75em;
+
+}

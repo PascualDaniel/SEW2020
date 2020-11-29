@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+  <ruta isbn="ID01">
+    <nombre>Costa en Autocaravana</nombre>
+    <tipo>Paisajistica</tipo>
+    <dificultad>Facil</dificultad>
+    <fechainicio>10-10-20 </fechainicio>
+    <horainicio>10:30 </horainicio>
+    <duracion>7 dias</duracion>
+    <agencia>Agencias pepe</agencia>
+    <descripcion>Se puede ver toda la zona de Ovideo </descripcion>
+    <personas>Mediana edad</personas>
+    <inicio>Oviedo</inicio>
+    <dirInicio>Area de Autocaravanas</dirInicio>
+    <coordenadas>
+      <longitud>   -5.823948 </longitud>
+      <latitud>	43.382945 </latitud>
+      <altitud>	232	</altitud>
+    </coordenadas>
+    <referencias>
+      <ref>https://viajandoconmanuela.com/viajes/asturias-en-autocaravana/</ref>
+      <ref>https://es.wikipedia.org/wiki/Luarca</ref>
+      <ref>https://www.ribadesella.com/</ref>
+    </referencias>
+    <recomendacion>7</recomendacion>
+
+    <hitos>
+      <hito>
+        <nombreHito> LLastres  </nombreHito>
+        <descripcionhito> Pueblo pesquero con un gran puerto </descripcionhito>
+        <coordenadasGeo>
+          <longitudG>   -5.27308 </longitudG>
+          <latitudG>	43.51532  </latitudG>
+          <altitudG>	40 	</altitudG>
+        </coordenadasGeo>
+
+        <tiempohito>1 hora</tiempohito>
+        <fotos>
+          <foto>llastres.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito> RIBADESELLA   </nombreHito>
+        <descripcionhito> Donde acaban las piraguas </descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -5.054071 </longitudG>
+          <latitudG>	 43.460216 </latitudG>
+          <altitudG>	15	</altitudG>
+        </coordenadasGeo>
+        <tiempohito>30 min</tiempohito>
+        <fotos>
+          <foto>ribadesella.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito> Llanes   </nombreHito>
+        <descripcionhito> Se come mmuy bien  </descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -4.76750  </longitudG>
+          <latitudG>   43.42361 </latitudG>
+          <altitudG>	15	</altitudG>
+        </coordenadasGeo>
+        <tiempohito>40 min</tiempohito>
+        <fotos>
+          <foto>llanes.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+
+  <ruta isbn="ID02">
+    <nombre>Asturias en Autocaravana</nombre>
+    <tipo>Paisajistica</tipo>
+    <dificultad>Facil</dificultad>
+    <fechainicio>15-11-20 </fechainicio>
+    <horainicio>14:45 </horainicio>
+    <duracion>7 dias</duracion>
+    <agencia>sin agencia</agencia>
+    <descripcion>Se puede ver un poco de todo </descripcion>
+    <personas>Jovenes</personas>
+    <inicio>Vitoria-Taramundi</inicio>
+    <dirInicio>Parking de Taramundi</dirInicio>
+    <coordenadas>
+      <longitud>   -7.10694</longitud>
+      <latitud>	43.35972  </latitud>
+      <altitud>	276	</altitud>
+    </coordenadas>
+    <referencias>
+      <ref>https://www.conmiautocaravana.com/2017/07/de-ruta-por-asturias-un-paraiso.html</ref>
+      <ref>https://es.wikipedia.org/wiki/Taramundi</ref>
+      <ref>https://www.areasac.es/area-autocaravanas/areasaces/inicio_132_1_ap.html</ref>
+    </referencias>
+    <recomendacion>8</recomendacion>
+
+    <hitos>
+      <hito>
+        <nombreHito> Tapia de Casariegos  </nombreHito>
+        <descripcionhito> Pueblo del Parque historico de Navia </descripcionhito>
+        <coordenadasGeo>
+          <longitudG>   -6.94583 </longitudG>
+          <latitudG>	43.56611  </latitudG>
+          <altitudG>	20 	</altitudG>
+        </coordenadasGeo>
+
+        <tiempohito>1 dia </tiempohito>
+        <fotos>
+          <foto>tapia.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito>  Oviedo </nombreHito>
+        <descripcionhito>Capital de Asturias</descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -5.823948</longitudG>
+          <latitudG>	 43.382945 </latitudG>
+          <altitudG>232	</altitudG>
+        </coordenadasGeo>
+        <tiempohito>40min</tiempohito>
+        <fotos>
+          <foto>catedral.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito> Cangas de Onis   </nombreHito>
+        <descripcionhito> La mejor ciudad del mundo </descripcionhito>
+        <coordenadasGeo>
+          <longitudG>  -5.125752 </longitudG>
+          <latitudG>	43.353639 </latitudG>
+          <altitudG>	64	</altitudG>
+        </coordenadasGeo>
+        <tiempohito>1 dia</tiempohito>
+        <fotos>
+          <foto>puenteRomano.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+
+<ruta isbn="ID03">
+    <nombre>Montes en Autocaravana</nombre>
+    <tipo>Paisajistica</tipo>
+    <dificultad>Normal</dificultad>
+    <fechainicio>20-11-20 </fechainicio>
+    <horainicio>9:00 </horainicio>
+    <duracion>4 dias</duracion>
+    <agencia>sin agencia</agencia>
+    <descripcion>Se puede ver los montes del Oriente Asturiano </descripcion>
+    <personas>Jovenes</personas>
+    <inicio>Cangas de Onis</inicio>
+    <dirInicio>Estacion de Autobuses</dirInicio>
+    <coordenadas>
+      <longitud> -5.125752 </longitud>
+      <latitud>	 43.353639 </latitud>
+      <altitud>	64	</altitud>
+    </coordenadas>
+    <referencias>
+      <ref>https://www.furgosfera.com/viajes-furgoneta/asturias-en-furgo-5-dias-de-ruta-por-el-oriente-asturiano.html</ref>
+      <ref>https://es.wikipedia.org/wiki/Taramundi</ref>
+      <ref>"www.c.com"</ref>
+    </referencias>
+    <recomendacion>10</recomendacion>
+
+    <hitos>
+      <hito>
+        <nombreHito> Covadonga   </nombreHito>
+        <descripcionhito> Donde pelayo empezo la reconquista </descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -5.0500000  </longitudG>
+          <latitudG>	 43.3166700 </latitudG>
+          <altitudG> 258  	</altitudG>
+        </coordenadasGeo>
+
+        <tiempohito> 40 min  </tiempohito>
+        <fotos>
+          <foto>santina.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito>  Sotres </nombreHito>
+        <descripcionhito>Pueblo mas alto de asturias</descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -4.7490100 </longitudG>
+          <latitudG>	 43.2330000 </latitudG>
+          <altitudG>1050 </altitudG>
+        </coordenadasGeo>
+        <tiempohito>3horas</tiempohito>
+        <fotos>
+          <foto>urriellu.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+      <hito>
+        <nombreHito> Poncebos   </nombreHito>
+        <descripcionhito> Empezar la ruta del Cares </descripcionhito>
+        <coordenadasGeo>
+          <longitudG> -4.91631.  </longitudG>
+          <latitudG>	 43.15253 </latitudG>
+          <altitudG>	480	</altitudG>
+        </coordenadasGeo>
+        <tiempohito>1 dia</tiempohito>
+        <fotos>
+          <foto>cares.jpg</foto>
+        </fotos>
+        <videos>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+
+
+
+
+</rutas>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Energetica</title>
+    <link rel="stylesheet" href="CalculadoraEnergetica.css" />
+    <script src="CalculadoraEnergetica.js"></script>
+</head>
+
+<body>
+
+    <h1>Calculadora Energetica</h1>
+    <h2 id ="aaa"></h2>
+    <div id="calculadora">
+
+        <div id="entrada">
+            <table>
+                <tbody>
+                    <tr id="nombres">
+                        <td>
+                            <p>Equipo:</p>
+                        </td>
+                        <td>
+                            <p>Cantidad:</p>
+
+                        </td>
+                        <td>
+                            <p>Potencia:</p>
+                        </td>
+
+                        <td>
+                            <p>Eficiencia:</p>
+                        </td>
+                        <td>
+                            <p>Tiempo:</p>
+                        </td>
+                        <td>
+                            <p>Dias:</p>
+                        </td>
+                    </tr>
+                    <tr id="inputs">
+                        <td>
+                            <input type="text" id ="nombre">
+                        </td>
+                        <td>
+                            <input type="number" id ="cantidad" value=0>
+                        </td>
+                        <td>
+                            <input type="number" id ="potencia" value=0>
+                        </td>
+
+                        <td>
+                            <select name="Eficiencia" id="Eficiencia">
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" id ="tiempo" value=0>
+                        </td>
+
+                        <td>
+                            <input type="number" id ="dias" value=0>
+                        </td>
+                        <td>
+                            <input type="button" value="Calcular" onclick="calculadora.bcalcular()">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tablas">
+            <table>
+                <tbody id ="datos">
+                    <tr id="Cabecera">
+                        <td>
+                            <p>Equipo:</p>
+                        </td>
+                        <td>
+                            <p>Cantidad:</p>
+
+                        </td>
+                        <td>
+                            <p>Potencia:</p>
+                        </td>
+
+                        <td>
+                            <p>Eficiencia:</p>
+                        </td>
+                        <td>
+                            <p>Tiempo:</p>
+                        </td>
+                        <td>
+                            <p>Dias:</p>
+                        </td>
+                        <td>
+                            <p>KWh:</p>
+                        </td>
+                        <td>
+                            <p>Dinero:</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id ="numeros">
+
+            <table>
+                <tbody >
+                    <tr >
+                        <td>
+                            <p>KWH Total:</p>
+                        </td>
+                        <td>
+                            <p>Dinero Total:</p>
+
+                        </td>
+    
+                    </tr>
+                    <tr >
+                        <td>
+                            <p id="KWHTotal">0</p>
+                        </td>
+                        <td>
+                            <p id = "DineroTotal">0</p>
+
+                        </td>
+    
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
