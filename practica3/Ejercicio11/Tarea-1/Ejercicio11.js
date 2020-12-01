@@ -25,8 +25,9 @@ class Geolocalizacion {
     }
 
     ver() {
-
+        
         var datos = "";
+        
         datos += "<p>Longitud: " + this.longitud + " grados</p>";
         datos+='<p>Latitud: '+this.latitud +' grados</p>';
         datos+='<p>Precisión de la latitud y longitud: '+ this.precision +' metros</p>';

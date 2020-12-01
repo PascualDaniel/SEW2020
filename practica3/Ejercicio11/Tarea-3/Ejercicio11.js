@@ -39,6 +39,11 @@ class MapaEstaticoGoogle {
     getAltitud(){
         return this.altitud;
     }
+    ver(){
+        this.verTodo("ubicacion");
+        this.getMapaEstaticoGoogle("Mapa");
+        
+    }
     verTodo(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
         var datos='<p>'+ this.mensaje + '</p>'; 

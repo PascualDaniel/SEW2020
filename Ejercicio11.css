@@ -18,12 +18,17 @@ h1{
 }
 #ubicacion{
    
-        background-color: whitesmoke;
-        color: black;
-        text-align: left;
-        width: 80%;
-        height: auto;
-        margin:auto;
-        border: 3px solid rgb(0, 0, 0);
-    
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+    width: 80%;
+    height: auto;
+    margin:auto;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+#Mapa{
+    width: 80%;
+    height: auto;
 }
