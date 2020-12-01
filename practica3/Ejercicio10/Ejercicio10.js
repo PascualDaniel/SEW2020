@@ -64,7 +64,7 @@ class  Monedas {
         return "http://api.currencylayer.com/live?access_key=" + this.access_key + "&currencies=" + this.currencies + "&format=" + this.format;
     }
 
-
+  
     cargarDatos() {
 
     
