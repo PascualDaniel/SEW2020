@@ -2,6 +2,7 @@
 /* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
 body{
     background-color:rgb(48, 47, 47) ;
+    color:black;
 }
 #Ciudades {
     flex-wrap: wrap;
@@ -29,6 +30,7 @@ h1{
     width: 80%;
     height: auto;
   background-color: antiquewhite;
+  color:black;
   border: 1px black;
   text-align: center;
   margin: auto;
