@@ -16,9 +16,11 @@
     </header>
 
     <div id ="Cambio">
+ 
+        <input title="Cantidad a Cambiar " type="number" id ="in" value="0">
 
-        <input type="number" id ="in" value="0">
-        <select name="Moneda" id="TipoMonedaEntrada">
+     
+        <select title="Tipo de Moneda " name="Moneda" id="TipoMonedaEntrada">
             <option value="EUR">EURO</option>
             <option value="USD">DOLAR</option>
             <option value="JPY">YEN</option>
@@ -28,7 +30,7 @@
         <p>
             A
         </p>
-        <select name="Moneda" id="TipoMonedaSalida">
+        <select  title="Tipo de Moneda " name="Moneda" id="TipoMonedaSalida">
             <option value="EUR">EURO</option>
             <option value="USD">DOLAR</option>
             <option value="JPY">YEN</option>
@@ -38,12 +40,14 @@
         <p>
             =
         </p>
-        <input type="number" id ="OutNum" value="0"  >
+        <input title="Cambio" type="number" id ="OutNum" value="0"  >
      
     </div>
-    <input type="button"  value="Calcular" onclick="monedas.accionBoton()"> 
-    <input type="text" id ="prueba" value="0"  >
-
+    <div id ="calculo">
+        <input type="button" accesskey="c"  value="Calcular" onclick="monedas.accionBoton()"> 
+    
+    </div>
+    
 </body>
 
 </html>
