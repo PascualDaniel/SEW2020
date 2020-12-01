@@ -2,6 +2,7 @@
 /* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
 body{
     background-color:rgb(48, 47, 47) ;
+    color:black;
 }
 header{
     flex-wrap: wrap;
@@ -16,18 +17,39 @@ h1{
     font-size: 5em;
 }
 
-h2{
-    text-align: center;
-    color: green;
-}
-p{
-    text-align: left;
+#datos{
+    background-color: whitesmoke;
     color: black;
+    text-align: left;
+    width: 80%;
+    height: auto;
+    margin:auto;
+    border: 3px solid rgb(0, 0, 0);
 }
-footer{
-    margin-top:2em;
+#botonera{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin:auto auto 3% auto;
+    border: 3px solid rgb(0, 0, 0);
 }
-footer a img{
-    height:31px; 
-    width:88px;
+#ubicacion{
+   
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+    width: 70%;
+    height: auto;
+    margin:auto;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+#ubicacion img{
+   
+    
+    width: 100%;
+    height: auto;
+
 }

@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="Ejercicio11.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Ejercicio11.js"></script>
-    
+
 </head>
 
 <body>
     <header>
-    <h1>Kebabs Centro Oviedo</h1>  
-    
+        <h1>Kebabs Centro Oviedo</h1>
+
     </header>
-    <section id="Datos">
+    <div id="datos">
         <ul>
             <li>Kebab kebabish
                 <ul>
@@ -29,17 +29,35 @@
                     <li>Opcion Vegana: Si</li>
                 </ul>
             </li>
-
+            <li>Kebab autentico
+                <ul>
+                    <li>Nota : 8/10</li>
+                    <li>Opcion Vegana: Si</li>
+                </ul>
+            </li>
+            <li>Kebab autentico de verdad
+                <ul>
+                    <li>Nota : 3/10</li>
+                    <li>Opcion Vegana: No</li>
+                </ul>
+            </li>
+            <li>Kebab ASTUR DONNER
+                <ul>
+                    <li>Nota : 6/10</li>
+                    <li>Opcion Vegana: Si</li>
+                </ul>
+            </li>
 
 
 
         </ul>
-    </section>
+    </div>
+    <div id="botonera">
+        <input type="button" accesskey="o" value="Obtener mapa estático" onClick="miMapa.getMapaEstaticoGoogle('ubicacion');" />
+    </div>
 
-
-    <section id="ubicacion">
-        <input type="button" value="Obtener mapa estático" onClick = "miMapa.getMapaEstaticoGoogle('ubicacion');"/>
-    </section>
+    <div id="ubicacion">
+    </div>
 
 </body>
 
