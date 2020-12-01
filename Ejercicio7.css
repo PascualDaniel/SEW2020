@@ -15,14 +15,19 @@ h1{
     text-align: center;
     color: black;
     background-color: whitesmoke;
-    font-size: 5em;
+    font-size: 6em;
 }
 #cuerpo {
     flex-wrap: wrap;
     text-align: left;
     padding: 1em;
     border:3px black;
-    margin: 20px;
+    margin: auto;
+    width: 80%;
+    height: auto;
     color: black;
     background-color: whitesmoke;
+}
+button{
+    padding: 2em;
 }
