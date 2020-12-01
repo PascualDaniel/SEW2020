@@ -4,40 +4,42 @@
 "use strict";
 
 
-var mapaDinamicoGoogle = new Object();
-
-function initMap(){
-    var centro = {lat: 43.3672, lng: -5.8502}
-    var mapaGeoposicionado = new google.maps.Map(document.getElementById("mapa"),{
-        zoom:10,
-        napTypeId: 'terrain',
-        center:centro
-    });
-    mapaDinamicoGoogle.mapa = mapaGeoposicionado;
-}
-
-mapaDinamicoGoogle.initMap =initMap;
 
 class Mapa {
     constructor() {
-
+        this.info;
+        this.map;
+        this.rutas;
     }
 
-   
+    initialize() {
+
+       var centro = {lat: 43.3672, lng: -5.8502} ;
+       var mapOptions = {
+           zoom:10,
+           napTypeId: 'terrain',
+           center:centro
+       };
+       this.map = new google.maps.Map(document.getElementById('mapa'), mapOptions);
+
+       
+   }
 
 
     cargar(file) {
         var archivo = file[0];
-        var imagenMapa = document.getElementById("captura");
+       
         var lector = new FileReader();
 
+        
         lector.onload = function (evento) {
-            imagenMapa.innerText = lector.result;
+          
         }
         lector.readAsText(archivo);
+        var mapaLocal = this.map;
         lector.onloadend = function () {
-            var kmlData = $(lector.result).find("Document");
-            var placeMarks = $(kmlData).find("placemark");
+            var jsonData = $(lector.result).find("Document");
+            var placeMarks = $(jsonData).find("placemark");
 
             for (var i = 0; i < placeMarks.length; i++) {
                 var coordenadas = $(placeMarks).find("coordinates")[i];
@@ -61,19 +63,20 @@ class Mapa {
                     strokeColor: "#FF0000",
                     strokeOpacity: 1.0,
                     strokeWheight: 2,
+                    map:mapaLocal
 
                 });
-                lineas.setMap(mapaDinamicoGoogle.mapa)
+                lineas.setMap(mapaLocal)
             }
 
 
         };
-
+    
 
 
     }
 }
-var mapa = new Mapa();
+var mapaLoader = new Mapa();
 
 
 

@@ -8,32 +8,9 @@ header{
     flex-wrap: wrap;
     text-align: center;
 
-}
-h1{
-    
-    text-align: center;
-    color: black;
-    background-color: whitesmoke;
-    font-size: 5em;
-}
-#datos{
-
-    background-color:rgb(218, 218, 218) ;
-    color: black;
-    text-align: left;
-    width: 80%;
-    height: auto;
-    margin:auto auto 3% auto;
 
 }
-#datos p{
-    padding: 1%;
 
-}
-#dato pre{
-    padding: 1%;
-    margin-left: 3%;
-}
 #seleccion{
     background-color: whitesmoke;
     color: black;
@@ -43,4 +20,15 @@ h1{
     margin:auto auto 3% auto;
     border: 3px solid rgb(0, 0, 0);
 
+}
+h1{
+    
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 5em;
+}
+#mapa {
+    height: 500px;
+    width: 100%;
 }
