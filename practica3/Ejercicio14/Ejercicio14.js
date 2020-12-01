@@ -1,7 +1,7 @@
 
 
 
-class Puzzle {
+class Ejercicio14 {
     constructor() {
 
 
@@ -11,8 +11,8 @@ class Puzzle {
         this.cargar(files);
 
     }
-    invert() {
-        var canvas = document.getElementById('canvasImagen');
+    invertir() {
+        var canvas = document.getElementById('ImagenEditada');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -28,7 +28,7 @@ class Puzzle {
         ctx.putImageData(imageData, 0, 0);
     }
     original() {
-        var canvas = document.getElementById('canvasImagen');
+        var canvas = document.getElementById('ImagenEditada');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -36,8 +36,8 @@ class Puzzle {
         ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
     };
 
-    grayscale() {
-        var canvas = document.getElementById('canvasImagen');
+    grises() {
+        var canvas = document.getElementById('ImagenEditada');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -54,8 +54,8 @@ class Puzzle {
         ctx.putImageData(imageData, 0, 0);
     };
 
-    fullScreen(){
-        var elem = document.getElementById("canvasImagen");
+    pantallaCompleta(){
+        var elem = document.getElementById("ImagenEditada");
         if (elem.requestFullscreen) {
             elem.requestFullscreen();
         }
@@ -100,6 +100,6 @@ class Puzzle {
 
 
 
-var puzzle = new Puzzle();
+var eje14 = new Ejercicio14();
 
 
