@@ -10,6 +10,7 @@ body{
 
     text-align: center ;
     background-color: rgb(71, 71, 71);
+    color:black;
     border: 3px black ridge;
     align-items: center;
     justify-content: center;
@@ -24,6 +25,7 @@ body{
     font-size: 2em;
     align-items: center;
     background-color: rgb(169, 211, 168);
+    color:black;
     overflow: hidden;
     margin: 1em;
 
@@ -37,7 +39,7 @@ body{
 
 }
 div [type=button]{
-    font-size: 1,2em;
+    font-size: 1.2em;
     align-items: center;
     min-width: 60px;
     min-height: 40px;
@@ -51,7 +53,7 @@ div [type=button].bRojo{
 }
 div [type=button].bGris{
     color: white;
-    background-color: grey;
+    background-color: rgb(32, 32, 32);
 }
 div [type=button].bBlanco{
     color: black;
