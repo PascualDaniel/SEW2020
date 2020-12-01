@@ -10,7 +10,7 @@ body{
     border:3px black;
     margin: 20px;
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
 }
 header{
     flex-wrap: wrap;
@@ -21,14 +21,14 @@ h1{
     
     text-align: center;
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
     font-size: 5em;
 }
 
 #Cambio{
     width: 80%;
     height: auto;
-  background-color: whitesmoke;
+  background-color: white;
   border: 1px black;
   text-align: center;
   margin: auto;
