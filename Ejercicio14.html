@@ -17,32 +17,32 @@
         <h1>Ejercicio 14</h1>
         <div id="seleccion">
             <p>Seleccione una imagen: </p>
-            <input type="file" id="archivoTexto" onchange="puzzle.metodoBoton(this.files)">
+            <input type="file" id="archivoTexto" accesskey="A" onchange="puzzle.metodoBoton(this.files)">
         </div>
 
 
 
 
     </header>
-    <div id="control">
+    <div id="controles">
         <div id="imagenDiv">
 
         </div>
 
 
         <div id="botones">
-            <input type="button" value="Invertir" id="invertir" onclick="puzzle.invert()">
-            <input type="button" value="Grises" id="grayscale" onclick="puzzle.grayscale()">
-            <input type="button" value="Normal" id="original" onclick="puzzle.original()">
+            <input type="button" value="Invertir" accesskey="I" id="invertir" onclick="puzzle.invert()">
+            <input type="button" value="Grises" accesskey="G" id="grises" onclick="puzzle.grayscale()">
+            <input type="button" value="Normal" accesskey="N" id="original" onclick="puzzle.original()">
 
         </div>
 
 
     </div>
-    <input type="button" value="FullScreen" id="FullScreen" onclick="puzzle.fullScreen()">
+    <input type="button" value="Pantalla Completa" id="PantallaCompleta" onclick="puzzle.fullScreen()">
     <div id="ImagenTotal">
 
-        <canvas id="canvas"></canvas>
+        <canvas id="canvasImagen"></canvas>
 
 
 

@@ -28,7 +28,7 @@ h1{
     border: 3px solid rgb(0, 0, 0);
 
 }
-#control{
+#controles{
     margin:auto auto 3% auto;
     width: 70%;
     border: 3px solid rgb(0, 0, 0);
@@ -58,7 +58,7 @@ h1{
     display: block;
     margin: auto;
 }
-#canvas{
+#canvasImagen{
     position: relative;
     width: 100%;
     height: auto;

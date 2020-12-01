@@ -12,7 +12,7 @@ class Puzzle {
 
     }
     invert() {
-        var canvas = document.getElementById('canvas');
+        var canvas = document.getElementById('canvasImagen');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -28,7 +28,7 @@ class Puzzle {
         ctx.putImageData(imageData, 0, 0);
     }
     original() {
-        var canvas = document.getElementById('canvas');
+        var canvas = document.getElementById('canvasImagen');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -37,7 +37,7 @@ class Puzzle {
     };
 
     grayscale() {
-        var canvas = document.getElementById('canvas');
+        var canvas = document.getElementById('canvasImagen');
         var ctx = canvas.getContext('2d');
         var img = document.getElementById("imagenCargada");
         canvas.width=document.getElementById("imagenCargada").width;
@@ -55,7 +55,7 @@ class Puzzle {
     };
 
     fullScreen(){
-        var elem = document.getElementById("canvas");
+        var elem = document.getElementById("canvasImagen");
         if (elem.requestFullscreen) {
             elem.requestFullscreen();
         }
