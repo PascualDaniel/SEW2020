@@ -18,6 +18,7 @@ h1{
     font-size: 6em;
 }
 #cuerpo {
+    font-size: 1.2em;
     flex-wrap: wrap;
     text-align: left;
     padding: 1em;
@@ -28,6 +29,7 @@ h1{
     color: black;
     background-color: whitesmoke;
 }
-button{
-    padding: 2em;
+input{
+    
+    font-size: 1.2em;
 }
