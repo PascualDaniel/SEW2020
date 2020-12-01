@@ -2,6 +2,7 @@
 /* Version 1.0. 29/10/2020. Daniel Pascual Lopez. Universidad de Oviedo */
 body{
     background-color:rgb(240, 181, 71) ;
+    color:black;
 }
 #calculadora{
     display: flex;
@@ -25,17 +26,9 @@ body{
     font-size: 2em;
     align-items: center;
     background-color: rgb(169, 211, 168);
-    color:black;
+    color: black;
     overflow: hidden;
     margin: 1em;
-
-}
-#pantalla > #entrada{
-    border-top: 2px black;
-}
-#pantalla > #pila>p {
-    margin: 0em;
-    font-size: 0.75em;
 
 }
 div [type=button]{
@@ -53,7 +46,7 @@ div [type=button].bRojo{
 }
 div [type=button].bGris{
     color: white;
-    background-color: rgb(32, 32, 32);
+    background-color: grey;
 }
 div [type=button].bBlanco{
     color: black;
