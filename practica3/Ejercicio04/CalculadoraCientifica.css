@@ -46,7 +46,7 @@ div [type=button].bRojo{
 }
 div [type=button].bGris{
     color: white;
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
 }
 div [type=button].bBlanco{
     color: black;

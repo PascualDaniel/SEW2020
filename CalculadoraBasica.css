@@ -15,10 +15,10 @@ body{
     border: 3px black ridge;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
+    max-width: 400px;
 }
 #pantalla{
-    min-width: 320px;
+    min-width: 300px;
     min-height: 30px;
     border: 2px rgb(221, 221, 221);
     text-align: right;
@@ -26,15 +26,15 @@ body{
     font-size: 2em;
     align-items: center;
     background-color: rgb(169, 211, 168);
-    color: black;
+    color:black;
     overflow: hidden;
     margin: 1em;
 
 }
 div [type=button]{
-    font-size: 1.2em;
+    font-size: 2em;
     align-items: center;
-    min-width: 60px;
+    min-width: 50px;
     min-height: 40px;
     margin: 0.2em;
     color: white;
@@ -46,13 +46,5 @@ div [type=button].bRojo{
 }
 div [type=button].bGris{
     color: white;
-    background-color: grey;
-}
-div [type=button].bBlanco{
-    color: black;
-    background-color: rgb(236, 234, 234);
-}
-div [type=button].bAzul{
-    color: white;
-    background-color: rgb(8, 20, 71);
+    background-color: rgb(61, 61, 61);
 }
